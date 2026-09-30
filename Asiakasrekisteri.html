@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="Asiakasrekisteri.css">
+    <title>Niilon asiakasrekisteri</title>
+</head>
+<body>
+<div id="Otsikko">
+<h1>Asiakasrekisteri</h1>
+</div>
+<form id="Asiakasrekisteri" method="get" action="">
+<div id="Jutut">
+<label for="Sähköposti">Sähköposti</label><br>
+<input type="text" name="text" id="Sähköposti" placeholder="Nimi@posti.fi" required><br>
+<label for="Salasana">Salasana</label><br>
+<input type="password" name="pwd" id="Salasana" required><br>
+<label for="Etunimi">Etunimi</label><br>
+<input type="text" name="text" id="Etunimi" required><br>
+<label for="Sukunimi">Sukunimi</label><br>
+<input type="text" name="text" id="Sukunimi" required><br>
+<label for="Puhelin">Puhelin</label><br>
+<input type="number" name="number" id="Puhelin" required><br>
+<p>Asiointikieli:</p>
+<select name="Este" id="Pudotus" required> <option value="Valikko">Suomi</option> <option value="Kyllä">Svenska</option> <option value="Ei">English</option></select>
+<button id="Painike" type="Submit" name="Button">Lähetä</button>
+</div>
+<div class="Liila">
+</div>
+</form>
+</body>
+</html>

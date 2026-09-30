@@ -1,0 +1,14 @@
+#Otsikko{
+    text-align: center;
+}
+#Jutut{
+    padding: 50px;
+}
+.Liila{
+    background-color: rgb(129, 0, 250, 0.5);
+    width: 3500px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 00px;
+}
